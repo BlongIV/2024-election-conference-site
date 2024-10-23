@@ -1,18 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to right bottom, grey, white);
+    background-image: url(pexels-photo-129112.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+
 }
 
 .header {
     display: flex;
-    margin: 0px;
     padding: 10px;
-    justify-content: space-between;
-    background-color: brown;
+    gap:15px;
+    background-color: rgb(175, 24, 24, .8);
     align-items: center;
-    opacity: .9;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 a {
@@ -30,7 +34,6 @@ a {
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    margin: 10px;
 }
 
 .title {
@@ -38,6 +41,7 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: large;
+    margin-left: 15px;
 }
 
 .speakers-body, .sponsors-body {
@@ -56,6 +60,7 @@ a {
     border-radius: 10px;
     text-align: center;
     padding:15px;
+    background-color: rgb(240, 248, 255, .8);
 
 }
 
@@ -67,6 +72,7 @@ a {
     border-radius: 10px;
     padding: 10px;
     align-items: center;
+    background-color: rgb(240, 248, 255, .8);
 }
 
 .speaker-name, .sponsor-name {
@@ -85,6 +91,7 @@ a {
 img {
     width: 200px;
 }
+
 
 .home-body {
     display: flex;
@@ -120,6 +127,7 @@ img {
     border: 3px solid grey;
     padding: 15px;
     border-radius: 10px;
+    background-color: rgb(240, 248, 255, .8);
 }
 
 .home-main-card {
@@ -131,6 +139,7 @@ img {
     padding: 15px;
     padding-right: 25px;
     border-radius: 10px;
+    background-color: rgb(240, 248, 255, .8);
 }
 
 .home-main-info {
@@ -142,6 +151,8 @@ img {
     width: 300px;
 }
 
+
+
 .home-schedule {
     display: flex;
     flex-direction: column;
@@ -150,6 +161,7 @@ img {
     width:700px;
     padding: 15px;
     border-radius: 10px;
+    background-color: rgb(240, 248, 255, .8);
 }
 
 .home-schedule-title, .schedule-time, .schedule-desc {
@@ -159,6 +171,7 @@ img {
 .home-schedule-title {
     font-size: 30px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .schedule-desc, .schedule-time {
@@ -193,6 +206,7 @@ img {
     text-align: center;
     border-radius: 10px;
     padding:15px;
+    background-color: rgb(240, 248, 255, .8);
 }
 
 .faq-entry {
@@ -206,6 +220,7 @@ img {
     border-radius: 10px;
     padding:15px;
     gap:10px;
+    background-color: rgb(240, 248, 255, .8);
 
 }
 
@@ -217,5 +232,37 @@ img {
 
 .faq-entry-answer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.purpose-content {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid grey;
+    margin:10px;
+    padding: 20px;
+    align-items: center;
+    width:700px;
+    background-color: rgb(240, 248, 255, .8);
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.purpose-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.purpose-title, .purpose-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.purpose-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.purpose-desc {
     font-size: 20px;
 }
